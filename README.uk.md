@@ -83,8 +83,6 @@
 У вебінтерфейсі Shelly (відкрийте IP-адресу Shelly в браузері):
 **Settings → MQTT**.
 
-![Налаштування MQTT у Shelly](images/shelly-mqtt-settings.jpg)
-
 | Поле | Значення |
 |---|---|
 | **Enable** | **увімкнено** (обов'язково) |
