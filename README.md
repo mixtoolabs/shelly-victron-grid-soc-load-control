@@ -65,8 +65,7 @@ Notes:
   on Gen4. On devices **without virtual components** the script still works, with a
   **fixed threshold of 95 %**.
 - Only the **first relay channel** (`switch:0`) is controlled.
-- Not supported: Multi RS, standalone chargers without an AC input reading. If the system
-  has several Multi/Quattro units, the first one found is used.
+- Not supported: Multi RS, standalone chargers without an AC input reading.
 
 ---
 
