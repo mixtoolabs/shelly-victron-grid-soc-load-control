@@ -82,7 +82,7 @@ Note the IP address of the GX in your local network.
 In the Shelly web interface (open the IP of the Shelly in a browser):
 **Settings → MQTT**.
 
-![Shelly MQTT settings](images/shelly-mqtt-settings.jpg)
+![Shelly MQTT settings](main/shelly-mqtt-settings.jpg)
 
 | Field | Value |
 |---|---|
