@@ -141,7 +141,7 @@
 | `discovering portal id` / `portal id …` | пошук / знайдено GX |
 | `vebus instance …` | знайдено Multi/Quattro |
 | `grid present (ActiveInput=0, AC-in-1)` | мережа є на вході 1 |
-| `grid absent (ActiveInput=240, inverting)` | мережі немає, Multi інвертує |
+| `grid absent (ActiveInput=240, inverting)` | мережі немає, Multi/Quattro інвертує |
 | `soc 95.5 (threshold 95)` | SOC батареї і поточний поріг |
 | `threshold 75` | повзунок пересунуто |
 | `relay -> ON` / `relay -> OFF` | команда реле |
