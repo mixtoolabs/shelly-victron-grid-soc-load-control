@@ -61,8 +61,7 @@ already charged enough, and switch it off at once when the grid is lost.
 Notes:
 
 - The **"On at SOC" slider is a virtual component**. According to the Shelly documentation
-  virtual components exist on **Gen3 and Gen2 Pro** devices; they are also reported to work
-  on Gen4. On devices **without virtual components** the script still works, with a
+  virtual components exist on **Gen2 Pro, Gen3, Gen4** devices. On devices **without virtual components** the script still works, with a
   **fixed threshold of 95 %**.
 - Only the **first relay channel** (`switch:0`) is controlled.
 - Not supported: Multi RS, standalone chargers without an AC input reading.
