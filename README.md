@@ -139,7 +139,7 @@ does not show it. The change applies at once:
 | `discovering portal id` / `portal id …` | searching for / found the GX |
 | `vebus instance …` | Multi/Quattro found |
 | `grid present (ActiveInput=0, AC-in-1)` | grid present on input 1 |
-| `grid absent (ActiveInput=240, inverting)` | grid lost, Multi is inverting |
+| `grid absent (ActiveInput=240, inverting)` | grid lost, Multi/Quattro is inverting |
 | `soc 95.5 (threshold 95)` | battery SOC and current threshold |
 | `threshold 75` | slider moved |
 | `relay -> ON` / `relay -> OFF` | relay command |
