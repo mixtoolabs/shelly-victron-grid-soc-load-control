@@ -18,10 +18,10 @@
 //     (web UI -> Components) when the script is no longer used.
 //
 // Rules:
-//   grid absent (Multi inverting, no data)      -> relay OFF at once
+//   grid absent (inverting, no data)            -> relay OFF at once
 //   SOC unknown (no value, no data for 65 s)    -> relay OFF
 //   grid present, SOC >= threshold              -> relay ON
-//   grid present, SOC <= threshold - 5          -> relay OFF
+//   grid present, SOC <= threshold - 2          -> relay OFF
 //   in between                                  -> keep previous (hysteresis)
 //   script start, MQTT connection lost          -> relay OFF (safe state)
 //   relay power-on state is forced to "off"     -> relay OFF before the
@@ -39,7 +39,7 @@ let CFG = {
   NUM_MAX: 100,
   NUM_STEP: 5,
   NUM_DEFAULT: 95,
-  HYST: 5,
+  HYST: 2,
   KEEPALIVE_MS: 30000,
   WATCH_MS: 5000,
   STALE_MS: 65000,
