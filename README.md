@@ -55,7 +55,7 @@ already charged enough, and switch it off at once when the grid is lost.
 | Device | Status |
 |---|---|
 | Shelly Plug M Gen3, firmware 2.1.0 | **tested by the author** |
-| Ogemray 25A by Shelly (SW40 PbS) | **tested by the author** |
+| Ogemray 25A by Shelly (SW40 PbS) firmware 1.5.0-ogemray25prod1-g5ae3a20 | **tested by the author** |
 | Other Shelly Gen2+ devices with a relay | should work (not tested by the author) |
 
 Notes:
