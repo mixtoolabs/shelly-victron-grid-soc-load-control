@@ -19,7 +19,7 @@ already charged enough, and switch it off at once when the grid is lost.
 | Grid absent (Multi/Quattro is inverting, or no data) | **OFF at once** |
 | Battery SOC unknown (no value, no data for 65 s) | **OFF** |
 | Grid present and SOC ≥ threshold | **ON** |
-| Grid present and SOC ≤ threshold − 5 % | **OFF** |
+| Grid present and SOC ≤ threshold − 2 % | **OFF** |
 | SOC between the two limits | keeps the previous state (hysteresis, no relay chatter) |
 | Script start, MQTT connection lost | **OFF** (safe state) |
 
