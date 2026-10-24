@@ -55,7 +55,7 @@ already charged enough, and switch it off at once when the grid is lost.
 | Device | Status |
 |---|---|
 | Shelly Plug M Gen3, firmware 2.1.0 | **tested by the author** |
-| Ogemray 25A by Shelly (SW40 PbS) | **tested by the author**; this relay cannot be added to the Shelly Cloud app, so the "On at SOC" slider cannot be controlled from the app — the threshold stays at the default 95 % |
+| Ogemray 25A by Shelly (SW40 PbS) | **tested by the author** |
 | Other Shelly Gen2+ devices with a relay | should work (not tested by the author) |
 
 Notes:
