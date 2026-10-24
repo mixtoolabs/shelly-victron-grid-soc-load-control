@@ -127,7 +127,7 @@ In the Shelly Cloud app open **Components** → **On at SOC** and move the slide
 does not show it. The change applies at once:
 
 - the relay switches **on** when SOC reaches the threshold;
-- the relay switches **off** when SOC drops to **threshold − 5 %** (for 95 %: off at 90 %).
+- the relay switches **off** when SOC drops to **threshold − 2 %** (for 95 %: off at 93 %).
 
 ---
 
